@@ -1,0 +1,7 @@
+pip install django django-channels django-bootstrap4 channels-redis
+
+pip freeze > requirements.txt
+
+django-admin startproject realtime .
+
+django-admin startapp chat
